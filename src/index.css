@@ -1,0 +1,39 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: rgb(214, 202, 202);
+}
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+  margin: 50px;
+  padding: 20px;
+  align-items: center;
+}
+.card-img-top {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.card-body h5{
+    font-size: 20px;
+    margin: 5px 0;
+}
+.btn-primary button {
+  margin-top: 10px;
+  padding: 5px;
+  background-color: rgb(179, 221, 221);
+  border-radius: 10px;
+}
+.btn-primary button:hover{
+    background-color: rgb(196, 221, 196);
+    color: rgb(219, 150, 150);
+}
+.main:hover{
+}
